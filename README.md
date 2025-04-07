@@ -18,3 +18,15 @@ When data is collected over time (e.g., stock prices, weather), `np.vstack()` ca
 Before feeding data into statistical models or ML algorithms, `np.vstack()` combines cleaned and normalized data from different sources or dimensions into a uniform structure.
 
 It's a powerful and efficient way to handle structured data. Want to explore one of these examples in depth?
+
+
+
+
+In the context of np.random.normal(), the scale parameter defines the standard deviation (spread) of the normal distribution used to generate random numbers.
+
+What does scale=1.0 mean?
+A scale of 1.0 means the data points will have a standard deviation of 1, which is a typical spread around the mean (loc).
+
+Smaller values (e.g., scale=0.5) create data that clusters more tightly around the mean.
+
+Larger values (e.g., scale=2.0) generate data with a wider spread, meaning the values are more dispersed around the mean.
